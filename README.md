@@ -38,3 +38,45 @@
 |中文|英文|类型|
 |:------|:----|:----|
 |名称|name|string|
+
+## 数量
+
+|中文|英文|类型|
+|:------|:----|:----|
+|粉丝数|fans|number|
+|收藏数|collects|number|
+|喜欢数、点赞数|likes|number|
+|笔记数、内容数|contents|number|
+|收藏数|collects|number|
+
+## 第三方信息
+
+|中文|英文|类型|
+|:------|:----|:----|
+|抖音openid|douyin_open_id|string|
+|微信openid|wechat_open_id|string|
+|微信unionid|wechat_union_id|string|
+
+## 认证
+
+|中文|英文|类型|
+|:------|:----|:----|
+|Token(参数中)|auth_token|string|
+|Token(headers中)|Authorization|string|
+
+## 地区
+
+|中文|英文|类型|
+|:------|:----|:----|
+|国家|country|string|
+|省份|province|string|
+|市|city|string|
+|区县|district|string|
+
+## 订单
+
+|中文|英文|类型|
+|:------|:----|:----|
+|状态|status|string|
+|订单号|code|string|
+|金额|amount|number|
