@@ -20,6 +20,16 @@
 |来源|origin|string|
 |来源链接|origin_url|string|
 
+## 报告
+
+|中文|英文|类型|
+|:------|:----|:----|
+|标题|title|string|
+|简介|summary|string|
+|状态|status|string|
+|图片|images|array(string)|
+|PDF链接|pdf_url|array(string)|
+
 ## 用户类
 
 |中文|英文|类型|
@@ -32,12 +42,23 @@
 |头像|avatar|string|
 |邮箱|email|string|
 |电话|mobile|string|
+|职业|job|string|
+|公司|company|string|
 
 ## 标签、分类
 
 |中文|英文|类型|
 |:------|:----|:----|
 |名称|name|string|
+|类型|category|string|
+
+## 栏目
+
+|中文|英文|类型|
+|:------|:----|:----|
+|名称|name|string|
+|位置|position|number|
+|描述|description|string|
 
 ## 数量
 
@@ -80,3 +101,14 @@
 |状态|status|string|
 |订单号|code|string|
 |金额|amount|number|
+|评价|review|string|
+|支付平台|platform|string|
+
+## 轮播图
+
+|中文|英文|类型|
+|:------|:----|:----|
+|标题|title|string|
+|图片|image|string|
+|类型|category（图片、视频）|string|
+|链接|link|string|
