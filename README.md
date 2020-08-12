@@ -94,6 +94,15 @@
 |市|city|string|
 |区县|district|string|
 
+## 地址
+
+|中文|英文|类型|
+|:------|:----|:----|
+|联系人|contract_name|string|
+|联系电话|contract_mobile|string|
+|详细地址|detail|string|
+|是否默认|is_default|boolean|
+
 ## 订单
 
 |中文|英文|类型|
@@ -112,3 +121,23 @@
 |图片|image|string|
 |类型|category（图片、视频）|string|
 |链接|link|string|
+
+## 商品
+
+|中文|英文|类型|
+|:------|:----|:----|
+|名称|name|string|
+|图片|image|string|
+|原价|origin_amount|number|
+|现价|amount|number|
+|库存|stocks|number|
+|销量|sales|number|
+|状态|status|string|
+
+## 系统消息
+
+|中文|英文|类型|
+|:------|:----|:----|
+|内容|content|string|
+|是否已读|is_read|boolean|
+|类型|category|string|
