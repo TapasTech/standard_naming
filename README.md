@@ -16,6 +16,9 @@
 |发布状态|status|string|
 |编辑|editor|string|
 |标签|tags|array(string)|
+|一级标签|first_tags|array(string)|
+|二级标签|second_tags|array(string)|
+|三级标签|third_tags|array(string)|
 |图片、头图|image|string|
 |来源|origin|string|
 |来源链接|origin_url|string|
@@ -95,7 +98,7 @@
 |区县|district|string|
 
 ## 地址
-
+s
 |中文|英文|类型|
 |:------|:----|:----|
 |联系人|contract_name|string|
@@ -121,6 +124,9 @@
 |图片|image|string|
 |类型|category（图片、视频）|string|
 |链接|link|string|
+|宽度|width|number|
+|长度|height|number|
+|版权|copyright|string|
 
 ## 商品
 
