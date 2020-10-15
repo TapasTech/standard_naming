@@ -72,6 +72,7 @@
 |喜欢数、点赞数|likes|number|
 |笔记数、内容数|contents|number|
 |收藏数|collects|number|
+|转发数|forwards|number|
 
 ## 第三方信息
 
@@ -98,7 +99,7 @@
 |区县|district|string|
 
 ## 地址
-s
+
 |中文|英文|类型|
 |:------|:----|:----|
 |联系人|contract_name|string|
@@ -147,3 +148,9 @@ s
 |内容|content|string|
 |是否已读|is_read|boolean|
 |类型|category|string|
+
+## 记录
+
+|中文|英文|类型|
+|:------|:----|:----|
+|内容|content|string|
