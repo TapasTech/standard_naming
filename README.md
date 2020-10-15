@@ -73,6 +73,7 @@
 |笔记数、内容数|contents|number|
 |收藏数|collects|number|
 |转发数|forwards|number|
+|阅读数|reads|number|
 
 ## 第三方信息
 
