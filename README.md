@@ -74,6 +74,7 @@
 |收藏数|collects|number|
 |转发数|forwards|number|
 |阅读数|reads|number|
+|评论数|comments|number|
 
 ## 第三方信息
 
